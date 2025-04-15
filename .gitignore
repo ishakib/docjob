@@ -4,5 +4,5 @@
 .env
 /extension/
 /app/
-/web/
+/portal/
 docker-compose.yml
