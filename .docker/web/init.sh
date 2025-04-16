@@ -10,7 +10,7 @@ then
  yarn dev
 else
 #  npm install
-#  yarn build
+  yarn build
   HOST=0.0.0.0 pm2-runtime start yarn --interpreter bash --name web -- preview
 #   pm2-runtime start npm -- start
 fi
